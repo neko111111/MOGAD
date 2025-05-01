@@ -1,6 +1,6 @@
 # MOGAD: Integrated Multi-Omics and Graph Attention for Alzheimer’s Disease’s Biomarker Discovery
 Zhizhong Zhang<sup>1, †</sup>, Yuqi Chen<sup>1, †</sup>, Changliang Wang<sup>2, †</sup>, Maoni Guo<sup>2</sup>, Lu Cai<sup>1</sup>, Jian He<sup>1</sup>, Yanchun Liang<sup>3</sup>, Garry Wong<sup>4</sup>, Liang Chen<sup>1, *</sup>  
-the Multi-Omics Graph Attention Biomarker Discovery Network (MOGAD). MOGAD aims to efficiently classify diseases and discover biomarkers by integrating various omics data such as DNA methylation, mRNA expression, and miRNA expression.  
+the Multi-Omics Graph Attention Biomarker Discovery Network (MOGAD) aims to efficiently classify diseases and discover biomarkers by integrating various omics data such as DNA methylation, mRNA expression, and miRNA expression.  
 
 
 The workflow of our study.  

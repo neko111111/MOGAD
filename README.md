@@ -7,7 +7,6 @@ Figure1-v4 illustrates the complete workflow of this study, which comprises thre
 2) MOGAD: The omics data and their corresponding cosine similarity matrices are pro-cessed by MGAT and MGAF, respectively. The outputs of these two modules are then fed into AF to produce the final predictions. When clinical data is involved, it is concatenated with the omics data prior to downstream processing;   
 3) Biomarker discovery: For each omics feature, its importance was quantified by the decline in prediction performance (F1 score) when the feature was masked in test data. Features were ranked by their impact scores, with higher scores indicating stronger biomarker potential.
   
-Input shape:(samples,features)
 # Files
 **feat_importance.py**： Feature importance functions  
 **main_biomarker.py**：Examples for identifying biomarkers   
@@ -15,7 +14,8 @@ Input shape:(samples,features)
 **models.py**：MOGAD model  
 **train_test.py**： Training and testing functions  
 **utils.py**：Supporting functions   
-  
- We use torch == 1.10, cuda == 11.3 and python >= 3.6 to run this code.  
- Use `python /code/main_mogad.py` to disease prediction.  
- Use `python /code/main_biomarker.py` to biomarker discovery.
+
+# Usage
+We use torch == 1.10, cuda == 11.3 and python >= 3.6 to run this code.  
+Use `python /code/main_mogad.py` to disease prediction.  
+Use `python /code/main_biomarker.py` to biomarker discovery.

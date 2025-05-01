@@ -7,7 +7,7 @@ The workflow of our study.
 Figure 1 illustrates the complete workflow of this study, which comprises three parts: 1) Data collection: We collected three types of omics data and clinical data. Redundant features and noise were removed from the omics data through feature selection; 2) MOGAD: The omics data and their corresponding cosine similarity matrices are pro-cessed by MGAT and MGAF, respectively. The outputs of these two modules are then fed into AF to produce the final predictions. When clinical data is involved, it is concatenated with the omics data prior to downstream processing; 3) Biomarker discovery: Refer to Biomarker discovery section.
 
 # Files
-**feat_importance.py**： Feature importance functions 
+**feat_importance.py**： Feature importance functions  
 **main_biomarker.py**：Examples for identifying biomarkers   
 **main_mogad.py**：Examples of MOGAD for classification tasks  
 **models.py**：MOGAD model  

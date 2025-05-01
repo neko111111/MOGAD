@@ -16,6 +16,6 @@ Figure1-v4 illustrates the complete workflow of this study, which comprises thre
 **utils.py**：Supporting functions   
 
 # Usage
-We use torch == 1.10, cuda == 11.3 and python >= 3.6 to run this code.  
+We use torch==1.10, cuda==11.3 and python>=3.6 to run this code.  
 Use `python /code/main_mogad.py` to disease prediction.  
 Use `python /code/main_biomarker.py` to biomarker discovery.

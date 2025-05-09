@@ -15,7 +15,18 @@ The workflow illustrates the complete workflow of this study, which comprises th
 **train_test.py**： Training and testing functions  
 **utils.py**：Supporting functions   
 
+# Data
+ ROSMAP dataset can be found in https://adknowledgeportal.synapse.org,include DNA methylation(syn3168763),mRNA(syn3505720),miRNA(syn3387327) and clinical data(syn3191087).  
+ BRCA dataset can be found in https://xenabrowser.net/datapages/?cohort-GDC%20TCGA%20Breast%20Cancer%20BRCA)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443.  
+ Hi-C data can be found in http://menglab.pub/hic/.
+ 
 # Usage
 We use torch==1.10, cuda==11.3 and python>=3.6 to run this code.  
 Use `python /code/main_mogad.py` to disease prediction.  
-Use `python /code/main_biomarker.py` to biomarker discovery.
+Use `python /code/main_biomarker.py` to biomarker discovery.  
+
+  
+The input data needs to be processed into the following shape：  
+1) Numeric values only,
+2) Matrix shape should be (samples * features),
+3) The row names (samples) of each omics data must correspond to each row of the labels.
